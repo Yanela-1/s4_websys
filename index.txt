@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" type="text/css"href="external_registration.css">
+    </head>    
+    
+    <body>
+    <div>
+        <h1>Employee Registration Form</h1>
+        <hr>
+        <form>
+        <p id="stitle">Full Name</p>
+        <table border="0px">
+        <tr>
+            <th><input type="text" id="tinput1" name="fname"></th>
+            <th><input type="text" id="tinput2" name="lname"></th>
+            <th><input type="date" id="tinput3" name="date"></th>
+        </tr>
+        <tr>
+            <td><label for="fname" id="label1">First Name</label></td>
+            <td><label for="lname" id="label2">Last Name</label></td>
+            <td><label for="date" id="date">Date of Birth</label></td>
+        </tr>
+        <tr>
+            <td colspan="2"><p  id="stitle">Email</p></td>
+            <td><p id="stitle2">Phone Number</p></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="text" id="iemail" name="email"></td>
+            <td><input type="number" id="iphone" name="phone" placeholder="(+63) 000-000-0000"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><label for="fname" id="label1">example@exmaple.com</label></td>
+            <td><label for="fname" id="phone">Please enter a valid phone number.</label></td>
+        </tr>
+        <tr>
+            <td><p id="stitle">Address</p></td>
+        </tr>
+        <tr>
+            <td colspan="3"><input type="text" id="address" name="address"></td>
+        </tr>
+        <tr>
+            <td colspan="3"><label for="address" id="label1">Street Address</label></td>
+        </tr>
+        <tr>
+            <td colspan="3"><input type="text" id="address" name="address2"></td>
+        </tr>
+        <tr>
+            <td colspan="3"><label for="address2" id="label1">Street Address Line 2</label></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="text" id="city" name="address2"></td>
+            <td><input type="text" id="city" name="address2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><label for="fname" id="label1">City</label></td>
+            <td><label for="fname" id="label1">Province</label></td>
+        </tr>
+        <tr>
+            <td colspan="3"><input type="text" id="address" name="postal"></td>
+        </tr>
+        <tr>
+            <td colspan="3"><label for="post" id="label1">Postal / Zip Code</label></td>
+        </tr>
+        <tr>
+            <td><p id="stitle">Gender</p></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="radio" id="radio" name="radio1">
+                <label for="radio1" id="radio1">Male</label>
+                <input type="radio" id="radio" name="radio2">
+                <label for="radio2" id="radio1">Female</label>
+                <input type="radio" id="javascript" name="radio3">
+                <label for="radio3" id="radio1">Others</label></td>
+            <td><select id="city">
+                <option>Single</option>
+                <option>Maried</option>
+                <option>Widowed</option>
+                <option>Separated</option>
+                <option>Divorced</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td colspan="3"><p id="stitle">Applying Position</p></td>
+        </tr>
+        <tr>
+            <td colspan="3"><input type="text" id="address" name="position"></td>
+        </tr>
+        <tr align = "center">
+            <td colspan="3"><input type="submit" value="Submit"></td>
+        </tr>
+        </form>
+        </table>
+    </div>
+    </body>
+</html>
